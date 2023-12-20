@@ -1,4 +1,4 @@
-﻿- type: entity
+﻿    - type: entity
   id: Airlock
   parent: BaseStructure
   name: airlock
@@ -108,7 +108,7 @@
   - type: Occluder
   - type: Damageable
     damageContainer: StructuralInorganic
-    damageModifierSet: StructuralMetallic
+    damageModifierSet: BreachableMetallic
   - type: Destructible
     thresholds:
     - trigger:

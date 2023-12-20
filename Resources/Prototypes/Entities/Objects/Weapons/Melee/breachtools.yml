@@ -13,15 +13,14 @@
     attackRate: 0.4 # Its a big fuckoff hammer
     damage:
       types:
-        # fuck I hate the structural damage removal
-        Blunt: 7
-        Structural: 10
+        Blunt: 5
+        Structural: 0
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 13
-        Structural: 110 # fuck you
+        Blunt: 25
+        Structural: 75
   - type: Item
     size: Ginormous
   - type: Clothing
@@ -29,7 +28,3 @@
     quickEquip: false
     slots:
     - back
-  - type: ToolForcePowered
-    qualities:
-  - type: UseDelay
-    delay: 3
