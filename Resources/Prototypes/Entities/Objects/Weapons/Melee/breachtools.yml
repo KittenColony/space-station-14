@@ -10,7 +10,7 @@
   - type: MeleeWeapon
     wideAnimationRotation: 90
     swingLeft: true
-    attackRate: 0.4 # Its a big fuckoff hammer
+    attackRate: 0.66 # Its a big fuckoff hammer
     damage:
       types:
         Blunt: 5
@@ -19,7 +19,7 @@
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 25
+        Blunt: 20
         Structural: 75
   - type: Item
     size: Ginormous
